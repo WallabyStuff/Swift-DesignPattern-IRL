@@ -45,7 +45,7 @@
 | Composite   |      |              |
 | Proxy       |      |              |
 | Facade      |      |              |
-| Bridge      |      |              |
+| Bridge      | ✅   | ✅           |
 | Decorator   |      |              |
 
 ### 생성 패턴
@@ -56,5 +56,5 @@
 | Factory           | ✅   | ✅            |
 | Factory Method    | ✅   |              |
 | Abstract Factory  | ✅   | ✅            |
-| Builder           |      |              |
+| Builder           | ✅   | ✅            |
 | Prototype         |      |              |
