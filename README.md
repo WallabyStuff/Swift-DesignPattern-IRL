@@ -41,8 +41,8 @@
 
 | 디자인 패턴 | 설명 | 예시 프로젝트 |
 | ----------- | ---- | ------------ |
-| Adapter     |      |              |
-| Composite   |      |              |
+| Adapter     | ✅   | ✅           |
+| Composite   | ✅   | ✅           |
 | Proxy       |      |              |
 | Facade      |      |              |
 | Bridge      | ✅   | ✅           |
