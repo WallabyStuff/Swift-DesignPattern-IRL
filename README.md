@@ -44,7 +44,7 @@
 | Adapter     | ✅   | ✅           |
 | Composite   | ✅   | ✅           |
 | Proxy       |      |              |
-| Facade      |      |              |
+| Facade      | ✅   |             |
 | Bridge      | ✅   | ✅           |
 | Decorator   |      |              |
 
@@ -55,6 +55,6 @@
 | Singleton         | ✅   |              |
 | Factory           | ✅   | ✅            |
 | Factory Method    | ✅   |              |
-| Abstract Factory  | ✅   | ✅            |
-| Builder           | ✅   | ✅            |
+| Abstract Factory  | ✅   | ✅           |
+| Builder           | ✅   | ✅           |
 | Prototype         |      |              |
