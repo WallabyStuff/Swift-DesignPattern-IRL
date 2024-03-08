@@ -43,10 +43,12 @@
 | ----------- | ---- | ------------ |
 | Adapter     | ✅   | ✅           |
 | Composite   | ✅   | ✅           |
-| Proxy       |      |              |
-| Facade      | ✅   |             |
+| ProtectionProxy | ✅   | ✅       |
+| VirtualProxy    | ✅   |          |
+| CachingProxy    | ✅   |          |
+| Facade      | ✅   |              |
 | Bridge      | ✅   | ✅           |
-| Decorator   |      |              |
+| Decorator   |      |             |
 
 ### 생성 패턴
 
