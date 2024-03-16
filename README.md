@@ -31,7 +31,7 @@
 | Command                 |      |              |
 | Iterator                |      |              |
 | State                   |      |              |
-| Visitor                 |      |              |
+| Visitor                 |  ✅    |   ✅           |
 | Mediator                |      |              |
 | Memento                 |      |              |
 | Template Method         |      |              |
