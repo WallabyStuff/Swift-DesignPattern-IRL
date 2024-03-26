@@ -189,3 +189,9 @@ struct ContentView: View {
 어떤가요? 이렇게 그룹화 된 추상화를 사용하게 되면 클라이언트 코드 간의 단단한 결합도 느슨하게 해주고 만약 새로운 테마를 추가한다고 하면 단순히 ThemeFactory 를 채택한 구현체를 만들어서 사용하면 되겠죠? 그러면서 자연스럽게 SRP, OCP도 챙길 수 있겠죠.
 
 이처럼 어떤 제품군을 만들때 특히 추상 팩토리가 유용하게 사용됩니다.
+
+</br>
+
+## 실행 화면
+
+![preview](./Resources/simulator_preview.gif)
