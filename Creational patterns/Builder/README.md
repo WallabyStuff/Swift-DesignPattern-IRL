@@ -40,6 +40,8 @@ let document = builder.build()
 
 게다가 setTitle, setAuthor 등 함수들을 protocol로 담아서 관리하면 클라이언트 입장에서는 추상 인터페이스만 보고있기 때문에 구현 코드는 어떻게 바뀌던 상관 없겠죠.
 
+</br>
+
 ### Method Chaining
 
 그리고 제가 생각하기에 builder의 꽃은 method chaining에 있다고 생각하는데 이를 구현하는 건 뒤에서 보고 일단 적용한 모습부터 보면 아래와 같습니다.
@@ -142,6 +144,13 @@ present(alert, animated: true)
 
 자 어떤가요? 깔끔하죠?
 
+이를 다이어그램으로 표현하면 아래와같습니다.
+
+![diagram](./Resources/diagram.png)
+
+</br>
+</br>
+
 사실 아래처럼 전통적으로 UIAlertController 생성해주는 거랑 별 안 다르지 않음? 이라고 생각하실 수 있습니다.
 
 ```Swift
@@ -159,3 +168,9 @@ alert.addAction(UIAlertAction(title: "설정으로 이동", style: .default, han
 
 그리고 빌더패턴은 기존에 객체를 생성하는 방식보다 훨씬 가독성이 좋아진다는 이점도 있습니다.
 특히 클로져를 가진 생성자 프로퍼티가 많다면요!
+
+</br>
+
+## 실행 화면
+
+![preview](./Resources/simulator_preview.gif)
