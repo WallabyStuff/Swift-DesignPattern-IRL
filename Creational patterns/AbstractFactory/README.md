@@ -183,6 +183,10 @@ struct ContentView: View {
 }
 ```
 
+이를 다이어그램으로 표현하자면 아래와같습니다.
+
+![diagram](./Resources/diagram.png)
+
 </br>
 </br>
 
