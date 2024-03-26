@@ -39,15 +39,12 @@
 | 디자인 패턴 | 설명 | 예시 프로젝트 |
 | ----------------------  | ---- | ------------ |
 | Observer                |      |              |
-| Strategy                |      |              |
-| Command                 |      |              |
-| Iterator                |      |              |
-| State                   |      |              |
-| Visitor                 |  ✅    |   ✅           |
-| Mediator                |      |              |
-| Memento                 |      |              |
-| Template Method         |      |              |
-| Chain of responsibility |      |              |
+| Strategy                |  ✅   |   ✅         |
+| Command                 |  ✅   |   ✅         |
+| Iterator                |  ✅   |   ✅         |
+| State                   |  ✅   |   ✅         |
+| Visitor                 |  ✅   |   ✅         |
+| Memento                 |  ✅   |   ✅         |
 
 ### 구조 패턴
 
