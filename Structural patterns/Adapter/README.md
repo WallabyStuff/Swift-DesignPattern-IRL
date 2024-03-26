@@ -146,5 +146,17 @@ final class AppleMapAdapter: MapService {
 (만약 새로운 카카오맵을 추가한다고 하면 MapService 프로토콜을 채택한 객체만 새로 만들어주면 되니까 말이죠!)
 어떻게 보면 각 기능들을 추상화 해서 거기에 wrapping 해준다고도 생각할 수 있을것 같습니다.
 
+다이어그램으로 표현하면 이렇게 표현할 수 있겠네요!
+
+![Diagram](./Resources/diagram.png)
+
 기존에 사용하던 객체를 추상화 해서 다른 객체도 추상화의 구현을 통해 비슷한 동작을 하도록 wrapping 해주는 방식, 이게 어댑터 패턴입니다.
 간단하죠?
+
+</br>
+
+## 실행 화면
+
+잘 보이진 않지만 NaverMapAdapter에서 AppleMapAdapter로 바꿔주는 것만으로 같은 동작을 동일하게 잘 수행하는 모습을 보실 수 있습니다.
+
+![Preview](./Resources/preview.gif)

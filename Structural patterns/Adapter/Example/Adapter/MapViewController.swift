@@ -74,5 +74,5 @@ class MapViewController: UIViewController {
 }
 
 #Preview {
-  MapViewController(mapService: NaverMapAdapter()) // 이걸 AppleMapAdapter로 변경해서도 프리뷰 빌드해 보세요!
+  MapViewController(mapService: AppleMapAdapter()) // 이걸 AppleMapAdapter로 변경해서도 프리뷰 빌드해 보세요!
 }
