@@ -152,3 +152,9 @@ wifiSetting.addComponent(AskToJoinNetworks(title: "Ask to Join Networks"))
 예시 프로젝트에는 이보다 조금 더 복잡하게 구성해놨으니 예시도 보면서 이해를 도와보세요!
 
 (실제로 사용할 때에는 최적화 같은것도 같이 고려해 보세요 🙂)
+
+</br>
+
+## 실행 화면
+
+![preview](./Resources/preview.gif)
